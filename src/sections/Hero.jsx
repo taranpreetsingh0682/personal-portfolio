@@ -6,9 +6,9 @@ import { Mail } from 'lucide-react'
 
  const Hero = () => {
   return(
-    <section className='min-h-screen px-3 py-0 '>
+    <section className=' px-3 py-0 '>
 
-      <div className='mx-auto grid max-w-7xl items-center gap-12  bg-red-100 py-2  lg:grid-cols-2'>
+      <div className='mx-auto grid max-w-7xl items-center gap-12  bg-white  py-2  lg:grid-cols-2'>
 {/* left content */}
         <div>
           <p className='mb-0 my-0 mx-3 text-2xl   font-large text-violet-900 '>
@@ -31,7 +31,7 @@ import { Mail } from 'lucide-react'
         
           <div className='mt-6 mx-3 my-4 gap-3 flex  flex wrap sm:gap-4  '>
             <a href='#projects' className='rounded-lg border-violet-600 px-4 py-3 text-sm font-semibold text-white  transition 
-            hover:bg-violet-700 sm:px-6 sm:text-base bg-black '>
+            hover:bg-indigo-700 sm:px-6 sm:text-base bg-indigo-600  '>
               View Project 
             </a>
       
@@ -44,24 +44,24 @@ import { Mail } from 'lucide-react'
           {/* Social Account Links */}
           <div className='mx-3 mt-8 flex items-center gap-2 '>
             
-            <a href='https://github.com/taranpreetsingh0682' target='_blank' rel='noreferrer' className='font-bold text-red-700 rounded-lg border-violet-600 py-3 px-4 transition hover:text-violet-600 bg-green-200  '>
+            <a href='https://github.com/taranpreetsingh0682' target='_blank' rel='noreferrer' className='font-bold text-gray-700 rounded-lg border border-gray-300 py-3 px-4 transition hover:border-indigo-500  hover:text-indigo-600 bg-white   '>
                 <FaGithub size={17}/>
               <span>Github</span>
               </a> 
               
-            <a href='https://www.linkedin.com/in/taranpreet-singh-331108296' target='_blank' rel='noreferrer' className='font-bold text-red-700 rounded-lg border-violet-600 py-3 px-4 transition hover:text-violet-600 bg-green-200 '>
+            <a href='https://www.linkedin.com/in/taranpreet-singh-331108296' target='_blank' rel='noreferrer' className='font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg '>
              <FaLinkedin size={17}/>
               <span>LinkedIn</span>
             </a>
           
-          <a href='mailto:taranpreetsingh62006@gmail.com' target='_blank' rel='noreferrer' className='font-bold text-red-700 rounded-lg border-violet-600 py-3 px-4 transition hover:text-violet-600 bg-green-200'>
+          <a href='mailto:taranpreetsingh62006@gmail.com' target='_blank' rel='noreferrer' className='font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg '>
             <Mail size={17}/>
             <span>Gmail</span>
           </a>
           </div>
           </div>
           {/* Right content */}
-        <div className='flex justify-center '>
+        <div className='flex justify-end '>
           <img src={pr} alt='Taranpreet Singh ' className='w-80 h-80  rounded-full object-cover border-4 border-violet-300 shadow-x1 sm:h-72 sm:w-72 lg:h-80 lg:w-80'/>
         </div>
 
