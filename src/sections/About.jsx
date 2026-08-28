@@ -20,7 +20,7 @@ const About = () => {
       {/* Developer snapshot */}
 
       <div className='mx-auto w-full max-w-md'>
-        <div className='rounded-2xl bg-zinc-900 my-8 p-6 shadow-xl'>
+        <div className='rounded-xl bg-gray-900 my-8 p-6 shadow-xl'>
           {/* Terminal Header  */}
           
           <div className='mb-6  flex items-center justify-between gap-2'>
@@ -28,38 +28,38 @@ const About = () => {
             <span className='h-3 w-3 rounded-full bg-yellow-500'></span>
             <span className='h-3 w-3 rounded-full bg-green-500'></span>
 
-            <span className='justify-between text-sm font-bold text-yellow-900'>
+            <span className='justify-between text-sm font-mono text-gray-400'>
               developer.js
             </span>
           </div>
           {/* Terminal Content  */}
           <div className='font-mono text-sm leading-7 sm:text-base'>
-            <p className='mt-4 text-grey-400'>
-              <span className='text-green-400  '>$</span>whoami
+            <p className='mt-4 text-emerald-400 font-mono '>
+              <span className='text-emerald-400 font-mono  '>$</span>whoami
             </p>
             <p className=' font-bold text-red-500'>
               Taranpreet Singh
             </p>
 
-            <p className='mt-4 text-grey-400'>
+            <p className='text-emerald-400 font-mono mt-6'>
             <span className='text-green-400'>$</span>role
             </p>
           <p className='font-bold text-red-500'>Full Stack Developer </p>
 
-          <p className='mt-4 text-grey-400'>
+          <p className='text-emerald-400 font-mono mt-6'>
             <span className='text-green-400'>$</span>education
 
           </p>
           <p className='font-bold text-red-500'>Btech-AI/ML</p>
 
-          <p className='mt-4 text-grey-400'>
+          <p className='text-emerald-400 font-mono mt-6'>
             <span className='text-green-400'>$</span>Focus
           </p>
           <p className='font-bold text-red-500'>React.js * Node.js * Python
             
             </p>
-            <p className='mt-4 text-grey-400'>
-              <span className='font-bold text-green-500'>$</span>mindset
+            <p className='text-emerald-400 font-mono mt-6'>
+              <span className='text-green-400'>$</span>mindset
             </p>
             <p className='font-bold text-red-500'>
             build * learn * improve
