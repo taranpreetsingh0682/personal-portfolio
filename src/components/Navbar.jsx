@@ -6,6 +6,7 @@ import { Menu, X, Send } from 'lucide-react'
 const Navbar = () => {
 
       const [isMenuOpen, setIsMenuOpen] = useState(false)
+       const [activeSection, setActiveSection] = useState('home')
       const navLinks =[
         {name: 'Home' , href:'#home'},
         {name: 'About', href: '#about'},
@@ -34,6 +35,7 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
+                onClick={() => setActiveSection(link.href.substring(1))}
               className={`relative py-2 px-3   text-black   ${
                 index === 0
                   ? ' '
@@ -42,7 +44,7 @@ const Navbar = () => {
             >
               {link.name}
 
-              {index === 0 && (
+              {activeSection === link.href.substring(1) && (
                 <span className="absolute bottom-0 left-0 h-0.5 w-full rounded-full bg-violet-900 " />
               )}
             </a>
@@ -77,7 +79,9 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={() => {setIsMenuOpen(false)
+                    setActiveSection(link.href.substring(1))
+                  }}
                   className="rounded-lg px-4 py-3 text-black hover:bg-violet-100 "
                 >
                   {link.name}

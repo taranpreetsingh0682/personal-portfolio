@@ -6,7 +6,7 @@ import { Mail } from 'lucide-react'
 
  const Hero = () => {
   return(
-    <section className=' px-3 py-0 bg-gray-50'>
+    <section id="home" className=' px-3 py-0 bg-gray-50'>
 
       <div className='mx-auto grid max-w-7xl items-center gap-12  bg-gray-50  py-2  lg:grid-cols-2'>
 {/* left content */}
