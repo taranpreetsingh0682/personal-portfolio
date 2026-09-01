@@ -35,8 +35,7 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
-                onClick={() => setActiveSection(link.href.substring(1))}
-              className={`relative py-2 px-3   text-black   ${
+                onClick={() => setActiveSection(link.href.substring(1))}              className={`relative py-2 px-3   text-black   ${
                 index === 0
                   ? ' '
                   : ' hover:text-black'

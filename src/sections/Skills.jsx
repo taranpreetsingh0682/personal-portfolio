@@ -12,7 +12,7 @@ const skillCategories =[
 ]
 const Skills = () => {
   return (
-     <section className='px-12 py-16 bg-gray-100'>
+     <section id="skills" className='px-12 py-16 bg-gray-100'>
       <h2 className='text-3xl font-bold text-center'>Skills</h2>
       <p className='text-center text-indigo-600 text-lg my-2'>What I work with</p>
       <p className='text-center text-gray-600 text-sm max-w-xl mx-auto mb-10'>
