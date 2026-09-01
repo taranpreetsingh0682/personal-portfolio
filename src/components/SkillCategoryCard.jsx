@@ -3,7 +3,7 @@ import React from 'react'
 const SkillCategoryCard = ({icon , title , skills }) => {
  
   return (
-    <div className='bg-white border border-gray-200 rounded-xl p-5 '>
+    <div className='bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-400 translate-y-1'>
       <div className='flex items-center gap-2 mb-4 '>
         {icon}
         <p className='font-medium text-base '>{title}</p>

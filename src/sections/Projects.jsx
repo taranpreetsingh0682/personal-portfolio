@@ -24,8 +24,8 @@ liveUrl:'',
 ]
 const Projects = () => {
   return (
-    <section className='px-12 py-12  bg-white'>
-      <h2 className='text-3xl font-bold items-center flex justify-center '>Projects</h2>
+    <section id="projects" className='px-12 py-12  bg-white'>
+      <h2 className='text-3xl font-bold  flex justify-center '>Projects</h2>
       <p className='text-center text-indigo-500 text-lg my-2'>Things I've built</p>
       <p className='text-center  text-gray-900 text-sm max-w-xl mx-auto mb-10 '>
          A selection of projects where I turned ideas into working products.
