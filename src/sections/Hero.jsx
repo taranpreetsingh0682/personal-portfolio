@@ -62,7 +62,7 @@ import { Mail } from 'lucide-react'
           </div>
           {/* Right content */}
         <div className='flex justify-end '>
-          <img src={pr} alt='Taranpreet Singh ' className='w-80 h-80 bg-indigo-100 text-indigo-700 rounded-full object-cover border-4 border-indigo-300 shadow-x1 sm:h-72 sm:w-72 lg:h-80 lg:w-80'/>
+          <img src={pr} alt='Taranpreet Singh ' className='w-80 h-80 bg-indigo-100 text-indigo-700 rounded-full object-cover border-4 border-indigo-300 shadow-x1 sm:h-56 sm:w-56 lg:h-80 lg:w-80'/>
         </div>
 
         

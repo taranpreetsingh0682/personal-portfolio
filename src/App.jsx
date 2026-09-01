@@ -5,9 +5,10 @@ import Hero from './sections/Hero'
 import About from './sections/About'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
-import TimeLine from './sections/TimeLine'
-
-
+import TimeLine from './sections/Experience'
+import Experience from './sections/Experience'
+import ScrollToTop from './components/ScrollToTop'
+import Certificates from './sections/Certificates'
 function App() {
   
 return(
@@ -18,7 +19,9 @@ return(
 <About/>
 <Skills/>
 <Projects/>
-<TimeLine/>
+<Experience/>
+<ScrollToTop/>
+<Certificates/>
 
 
 </>
