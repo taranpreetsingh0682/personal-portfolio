@@ -18,7 +18,7 @@ const certificates =[
 ]
 const Certificates = () => {
   return (
-    <section className='bg-white mb-3 '>
+    <section id="certificate" className='bg-white mb-3 '>
       <h2 className='text-center text-3xl font-bold'>Certificates</h2>
       <p className='font-semibold text-sm text-center text-indigo-500 my-2'>Recognized  Learning</p>
       <p className='text-center text-gray-500'>Certifications that back up what I've learned.</p>

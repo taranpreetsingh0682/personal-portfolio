@@ -1,22 +1,33 @@
 import React from 'react'
+import { motion } from 'motion/react'
 
 import { FaCheck, FaMapMarkerAlt } from 'react-icons/fa'
 
 import StatCards from '../components/StatCards'
 import TechStack from '../components/TechStack'
+import ParticleBackground from '../components/ParticleBackground'
 
 const About = () => {
 
   return (
 
-    <section id="about" className='mx-4 my-12 bg-white px-4 py-12 sm:mx-6 sm:px-6 lg:mx-12 lg:px-8'>
+    <section id="about" className='mx-4 my-12 bg-white px-4 py-12 sm:mx-6 sm:px-6 lg:mx-12 lg:px-8'
+    >
+      
 
       <div className='mx-auto max-w-6xl bg-white'>
 
         {/* About Heading */}
-        <p className='text-center text-3xl font-bold sm:text-4xl'>
+        <motion.p
+         initial={{ opacity: 0, y: -20, scale:0.8 }}
+         animate={{ opacity: 1, y: 1 }}
+         viewport={{ once: true }}
+         transition={{ duration: 0.5 }}
+        
+        
+        className='text-center text-3xl font-bold sm:text-4xl'>
           About Me
-        </p>
+        </motion.p>
 
         <h3 className='my-3 text-center text-2xl font-bold text-indigo-600 sm:text-3xl'>
           Get to know me better
@@ -181,7 +192,7 @@ const About = () => {
                 Tech Stack
               </p>
 
-              <div className='mt-4 flex  gap-2 sm:gap-3'>
+              <div className='mt-4 flex flex-wrap  gap-2 sm:gap-3'>
 
                 <TechStack skills={['HTML']} />
                 <TechStack skills={['CSS']} />

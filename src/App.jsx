@@ -9,6 +9,9 @@ import TimeLine from './sections/Experience'
 import Experience from './sections/Experience'
 import ScrollToTop from './components/ScrollToTop'
 import Certificates from './sections/Certificates'
+import Contact from './sections/Contact'
+import ParticleBackground from './components/ParticleBackground'
+
 function App() {
   
 return(
@@ -22,10 +25,10 @@ return(
 <Experience/>
 <ScrollToTop/>
 <Certificates/>
-
-
+<Contact/>
+ 
 </>
-   
+  
       
        
     

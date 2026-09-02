@@ -3,7 +3,7 @@ import { FaCertificate } from 'react-icons/fa'
 
 const CertificateCard = ({title , issuer,pdf}) => {
   return (
-    <div className='bg-white border border-gray-500 rounded-xl overflow-hidden hover:border-violet-300 my-6 transition-colors px-12 duration-300'>
+    <div className='bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-violet-300 my-6 transition-colors px-12 duration-300'>
     <div className='h-36  bg-indigo-50 rounded-xl flex items-center justify-center '>
       <FaCertificate className='text-3xl  text-indigo-200'/>
     </div>
