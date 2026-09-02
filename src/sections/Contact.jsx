@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Mail } from 'lucide-react'
 import emailjs from '@emailjs/browser'
 
+
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
   const [status, setStatus] = useState('')
@@ -11,30 +12,40 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setStatus('sending')
+ const handleSubmit = async (e) => {
+  e.preventDefault()
+  setStatus('sending')
 
-    emailjs
-      .send(
-        'service_53pqqsu',
-        'template_laq5dos',
-        {
-          name: formData.name,
-          email: formData.email,
-          message: formData.message,
-        },
-        'DHmYeUr4CMzy25GHi'
-      )
-      .then(() => {
-        setStatus('success')
-        setFormData({ name: '', email: '', message: '' })
-      })
-      .catch((err) => {
-        console.error(err)
-        setStatus('error')
-      })
+  const templateParams = {
+    name: formData.name,
+    email: formData.email,
+    message: formData.message,
   }
+
+  try {
+    
+    await emailjs.send(
+      'service_53pqqsu',
+      'template_laq5dos',
+      templateParams,
+      'DHmYeUr4CMzy25GHi'
+    )
+
+    
+    await emailjs.send(
+      'service_53pqqsu',
+      'template_27egh6c',
+      templateParams,
+      'DHmYeUr4CMzy25GHi'
+    )
+
+    setStatus('success')
+    setFormData({ name: '', email: '', message: '' })
+  } catch (err) {
+    console.error('EmailJS error:', err)
+    setStatus('error')
+  }
+}
 
   return (
     <section id="contact" className='px-6 sm:px-12 py-16 bg-white text-center'>

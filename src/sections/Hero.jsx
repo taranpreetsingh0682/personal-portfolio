@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
 
           <h2 className='text-5xl px-1 my-2 font-bold text-gray-900 sm:text-4xl lg:text-5xl'>
-            Taranpreet singh
+            Taranpreet Singh
           </h2>
 
           <h3 className='mt-3 mx-2 w-70 text-2xl font-semibold text-indigo-600 sm:text-2xl lg:text-3xl'>
