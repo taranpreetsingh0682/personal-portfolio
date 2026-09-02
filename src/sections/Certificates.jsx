@@ -1,19 +1,33 @@
 import React from 'react'
 import CertificateCard from '../components/CertificateCard'
+import certWeb from '../assets/Cert-web.png'
+import certCloud from '../assets/Cert-cloud.png'
+import certC from '../assets/Cert-c.png'
+import certData from '../assets/Cert-data.png'
 
 const certificates =[
   {
-    title: 'Full-Stack Web Development with AI',issuer: 'Internshala Trainings . Score 66%'
+    title: 'Full-Stack Web Development with AI',
+    issuer: 'Internshala Trainings . Score 66%',
+    image: certWeb
 
   },
   {
- title: 'Cloud-Computing (AWS)', issuer:'Internshala Trainings .Score 73%'
+ title: 'Cloud-Computing (AWS)',
+ issuer:'Internshala Trainings .Score 73%',
+ image:certCloud
+
   },
   {
-    title:'C++ Programming (Advanced)',issuer:'Infosys Springboard'
+    title:'C++ Programming (Advanced)',
+    issuer:'Infosys Springboard',
+    image: certC
   },
   {
-    title: 'Database and SQL ',issuer:'Infosys Springboard'
+    title: 'Database and SQL ',
+    issuer:'Infosys Springboard',
+    image: certData
+
   },
 ]
 const Certificates = () => {
