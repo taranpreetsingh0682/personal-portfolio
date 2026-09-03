@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
-const ProjectCard = ({icon: Icon ,title,description , tech ,githubUrl , liveUrl}) => {
+const ProjectCard = ({icon: Icon ,title,description , tech ,githubUrl , liveUrl , image}) => {
   return (
   <div className='bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 mb-4  transition-colors duration-300 '>
  <div className='h-36 bg-indigo-100 flex items-center justify-center '>
@@ -24,9 +24,9 @@ const ProjectCard = ({icon: Icon ,title,description , tech ,githubUrl , liveUrl}
         <a href={liveUrl} target='_blank' rel='noreferrer' className='flex items-center text-xs target-gray-800 hover:text-violet-200'>
           <FaExternalLinkAlt/>Live
         </a>
+        
       )}
-
-    </div>
+      </div>
   </div>
   </div>
   )

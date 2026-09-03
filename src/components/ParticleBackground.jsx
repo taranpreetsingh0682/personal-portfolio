@@ -14,9 +14,9 @@ const Particles = () => {
     const sizes = new Float32Array(particleCount)
 
     const colorPalette = [
-      new THREE.Color('#6366f1'), // indigo
-      new THREE.Color('#818cf8'), // lighter indigo
-      new THREE.Color('#a5b4fc'), // pale indigo
+      new THREE.Color('#0b0ff0'), // indigo
+      new THREE.Color('#a4fc00'), // lighter indigo
+      new THREE.Color('#07186c'), // pale indigo
       new THREE.Color('#ffffff'), // white sparkle
     ]
 
@@ -58,7 +58,7 @@ const Particles = () => {
         <bufferAttribute attach='attributes-color' count={particleCount} array={colors} itemSize={3} />
       </bufferGeometry>
       <pointsMaterial
-        size={0.045}
+        size={0.088}
         vertexColors
         transparent
         opacity={0.75}

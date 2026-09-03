@@ -22,7 +22,7 @@ const Navbar = () => {
   
   return (
     <header className='py-1 my-2 mx-3 bg-white'>
-      <nav className='py-2 px-5 my-0 border-b border-gray-200   bg-white   '>
+      <nav className='py-2 px-5 my-0 border-b border-gray-200 '>
         
 <div className='flex justify-between'>
         <div className=' flex items-center py-2 my-5'>
