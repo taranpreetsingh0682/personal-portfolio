@@ -15,7 +15,7 @@ const Particles = () => {
 
     const colorPalette = [
       new THREE.Color('#0b0ff0'), // indigo
-      new THREE.Color('#a4fc00'), // lighter indigo
+      new THREE.Color('#fc0000'), // lighter indigo
       new THREE.Color('#07186c'), // pale indigo
       new THREE.Color('#ffffff'), // white sparkle
     ]
@@ -58,7 +58,7 @@ const Particles = () => {
         <bufferAttribute attach='attributes-color' count={particleCount} array={colors} itemSize={3} />
       </bufferGeometry>
       <pointsMaterial
-        size={0.088}
+        size={0.060}
         vertexColors
         transparent
         opacity={0.75}

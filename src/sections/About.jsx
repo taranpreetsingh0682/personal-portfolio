@@ -11,7 +11,7 @@ const About = () => {
 
   return (
 
-    <section id="about" className='mx-4 my-12 bg-white px-4 py-12 sm:mx-6 sm:px-6 lg:mx-12 lg:px-8'
+    <section id="about" className='mx-4 my-12 bg-white px-4 py-12  sm:mx-6 sm:px-6 lg:mx-12 lg:px-8'
     >
       
 
