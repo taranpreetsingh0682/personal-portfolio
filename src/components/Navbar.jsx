@@ -26,7 +26,7 @@ const Navbar = () => {
         
 <div className='flex justify-between'>
         <div className=' flex items-center py-2 my-5'>
-          <a href='#home' className='text-[30px] font-bold tracking-tight text-indigo-500'>
+          <a href='#home' className='text-[30px] font-base tracking-tight text-indigo-500'>
           Taranpreet Singh
         </a>
         </div>
