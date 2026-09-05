@@ -7,8 +7,8 @@ const Navbar = () => {
 
       const [isMenuOpen, setIsMenuOpen] = useState(false)
        const [activeSection, setActiveSection] = useState('home')
-      const navLinks =[
-        {name: 'Home' , href:'#home'},
+      const navLinks  =[
+        {name: 'Home' , href:'#home' },
         {name: 'About', href: '#about'},
         {name: 'Skills' , href: '#skills'},
         {name: 'Projects', href:'#projects'},
@@ -26,11 +26,11 @@ const Navbar = () => {
         
 <div className='flex justify-between'>
         <div className=' flex items-center py-2 my-5'>
-          <a href='#home' className='text-[30px] font-bold tracking-tight text-black'>
+          <a href='#home' className='text-[30px] font-bold tracking-tight text-indigo-500'>
           Taranpreet Singh
         </a>
         </div>
-        <div className='hidden lg:flex py-2 my-2  items-center gap-6 text-[20px]'>
+        <div className='hidden lg:flex py-2 my-2   items-center gap-6 text-[20px]'>
          {navLinks.map((link, index) => (
             <a
               key={link.name}
