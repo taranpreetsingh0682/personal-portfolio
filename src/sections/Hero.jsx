@@ -6,8 +6,8 @@ import ParticleBackground from '../components/ParticleBackground'
 
 const Hero = () => {
   return (
-    <section id='home' className='relative overflow-hidden px-3 py-16 '>
-      <ParticleBackground />
+    <section id='home' className='relative overflow-hidden px-3 py-16 bg-orange-100'>
+     
 
       <div className='relative z-10 grid grid-cols-1 lg:grid-cols-2 items-center gap-10 max-w-6xl mx-auto'>
 
@@ -17,7 +17,7 @@ const Hero = () => {
             Hi, I'm
           </p>
 
-          <h2 className='text-5xl px-1 my-2 font-bold text-gray-900 sm:text-4xl lg:text-5xl'>
+          <h2 className='text-5xl px-1 my-2 font-base text-orange-500 sm:text-4xl lg:text-5xl'>
             Taranpreet Singh
           </h2>
 

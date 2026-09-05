@@ -6,7 +6,7 @@ const TechStack = ({ skills }) => {
       {skills.map((skill, index) => (
         <span
           key={index}
-          className='bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-600 '
+          className='bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-black-900 hover:bg-yellow-300 '
         >
           {skill}
         </span>
