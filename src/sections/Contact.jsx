@@ -32,12 +32,7 @@ const Contact = () => {
     )
 
     
-    await emailjs.send(
-      'service_53pqqsu',
-      'template_27egh6c',
-      templateParams,
-      'DHmYeUr4CMzy25GHi'
-    )
+  
 
     setStatus('success')
     setFormData({ name: '', email: '', message: '' })
