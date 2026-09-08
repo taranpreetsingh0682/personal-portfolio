@@ -36,7 +36,7 @@ const Certificates = () => {
       <h2 className='text-center text-3xl font-bold'>Certificates</h2>
       <p className='font-semibold text-sm text-center text-indigo-500 my-2'>Recognized  Learning</p>
       <p className='text-center text-gray-500'>Certifications that back up what I've learned.</p>
-<div className='grid grid-cols-1 sm:grid-cols-2 gap-5  max-w-2xl mx-auto'>
+<div className=' grid-cols-1 sm:grid-cols-2 gap-3 px-5  max-w-2xl mx-auto'>
   {certificates.map((cert,i)=>
   <CertificateCard key={i} {...cert}/>)}
 </div>
