@@ -21,7 +21,7 @@ const Experience = () => {
     <p className='font-semibold text-sm text-center my-2 text-indigo-500 '>Where I've Worked</p>
     <p className='text-center text-gray-500'>Hands-on experience applying what I've learned to real projects </p>
 
-    <div className=' max-w-2xl text-sm text-gray-500 mx-auto'>
+    <div className=' max-w-2xl text-sm text-white text-gray-500 mx-auto'>
 {experience.map((exp,i)=>
 <TimeLineCard key={i}{...exp}/>
 )}
