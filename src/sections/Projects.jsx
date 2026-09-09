@@ -1,10 +1,12 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import { FaLayerGroup, FaShieldAlt } from 'react-icons/fa'
+import lifeV from '../assets/Life-v.png'
+import portfolioP from '../assets/portfolio-P.png'
 
 const project=[
   {
-  icon: FaLayerGroup,
+  image: portfolioP,
   title:'Portfolio',
   description:'Personal portfolio website showcasing projects, skills, and experience with a component-driven architecture.',
   tech:['React.js',  'Tailwind', 'Lucide'],
@@ -13,7 +15,7 @@ const project=[
   },
 
   {
-icon:FaShieldAlt,
+image: lifeV,
 title:'LifeVault',
 description: 'Secure digital document vault with user authentication, upload, and management, backed by a responsive UI.',
 tech:['Html', 'Css' , 'Javascript' , 'CodeIgniter' , 'MySQL' , 'Docker'],
