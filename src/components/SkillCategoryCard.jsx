@@ -3,10 +3,10 @@ import React from 'react'
 const SkillCategoryCard = ({icon , title , skills }) => {
  
   return (
-    <div className='bg-red-200 border border-gray-200 rounded-xl p-5 hover:border-indigo-400 translate-y-1'>
-      <div className='flex items-center gap-2 mb-4 '>
+    <div className='bg-black border border-gray-200 rounded-xl p-5 hover:border-indigo-400 translate-y-1'>
+      <div className='flex items-center gap-2 mb-4 text-white'>
         {icon}
-        <p className='font-medium text-base '>{title}</p>
+        <p className=' font-semibold '>{title}</p>
       </div>
       <div className='flex flex-wrap gap-2'>
       {skills.map((skill, index) => (
