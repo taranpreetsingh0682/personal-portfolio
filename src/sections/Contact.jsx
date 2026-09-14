@@ -64,7 +64,7 @@ const Contact = () => {
 
       <form onSubmit={handleSubmit} className='mt-10 max-w-md mx-auto text-left bg-white border border-gray-200 rounded-2xl p-6 shadow-sm'>
         <div className='mb-4'>
-          <label className='block text-xs font-medium text-black mb-1.5'>Nameqs</label>
+          <label className='block text-xs font-medium text-black mb-1.5'>Name</label>
           <input
             type='text'
             name='name'
