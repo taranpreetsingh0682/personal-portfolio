@@ -11,11 +11,11 @@ const About = () => {
 
   return (
 
-    <section id="about" className='mx-4 my-2 bg-white px-4 py-12  sm:mx-6 sm:px-6 lg:mx-12 lg:px-8'
+    <section id="about" className='mx-4 my-2 px-4 py-12   sm:mx-6 sm:px-6 lg:mx-12 lg:px-8'
     >
       
 
-      <div className='mx-auto max-w-6xl bg-yellow-50 rounded-lg border border-red-500 hover:border-gray-300 py-2  '>
+      <div className='mx-auto max-w-6xl  rounded-lg  border-red-500 hover:border-gray-300 py-2  '>
 
         {/* About Heading */}
         <motion.p
