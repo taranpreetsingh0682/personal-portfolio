@@ -9,7 +9,7 @@ const project=[
   image: portfolioP,
   title:'Portfolio',
   description:'Personal portfolio website showcasing projects, skills, and experience with a component-driven architecture.',
-  tech:['React.js',  'Tailwind', 'Lucide'],
+  tech:['REACT.JS',  'TAILWIND', 'LUCIDE','EMAILJS' ],
   githubUrl:'https://github.com/taranpreetsingh0682',
   liveUrl:'',
   },
@@ -32,7 +32,7 @@ const Projects = () => {
       <p className='text-center  text-gray-900 text-sm max-w-xl mx-auto mb-10 '>
          A selection of projects where I turned ideas into working products.
       </p>
-      <div className='grid   grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-3xl mx-auto'>
         {project.map((p,i)=><ProjectCard key={i} {...p}/>)}
       </div>
     </section>

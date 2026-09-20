@@ -9,10 +9,10 @@ const ProjectCard = ({image,title,description , tech ,githubUrl , liveUrl , }) =
   </div>
   <div className='p-5'>
     <p className='font-semibold text-base mb-1.5  '>{title }</p>
-    <p className='text-sm font-bold text-white leading-relaxed mb-4 '>{description}</p>
+    <p className='text-sm font-bold text-white leading-relaxed mb-7  '>{description}</p>
     <div className='flex flex-wrap gap-2 mb-4  '>
        {tech.map((t, i) => (
-            <span key={i} className='bg-indigo-100 text-indigo-700 text-xs px-2.5 py-1  rounded-md'>{t}</span>
+            <span key={i} className='bg-white hover:bg-blue-300 text-indigo-800 text-xs px-2.5 py-1  rounded-md'>{t}</span>
           ))}
 
     </div>
