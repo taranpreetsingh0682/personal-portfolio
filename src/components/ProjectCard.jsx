@@ -3,8 +3,8 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 const ProjectCard = ({image,title,description , tech ,githubUrl , liveUrl , }) => {
   return (
-  <div className='bg-black text-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 mb-4  transition-colors duration-300 '>
- <div className='h-44 bg-indigo-100 flex items-center justify-center '>
+  <div className='bg-black text-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 mb-4 transition-colors duration-300 '>
+ <div className=' bg-indigo-100 flex items-center justify-center '>
   <img src={image} alt={title}/>
   </div>
   <div className='p-5'>
