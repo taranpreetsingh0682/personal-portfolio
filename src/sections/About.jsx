@@ -15,7 +15,7 @@ const About = () => {
     >
       
 
-      <div className='mx-auto max-w-6xl bg-yellow-50 border border-red-100 px-7 py-2  '>
+      <div className='mx-auto max-w-6xl bg-yellow-50 rounded-lg border border-red-500 hover:border-gray-300 py-2  '>
 
         {/* About Heading */}
         <motion.p
