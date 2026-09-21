@@ -26,7 +26,7 @@ const Navbar = () => {
         
 <div className='flex justify-between'>
         <div className=' flex items-center py-2 my-5'>
-          <a href='#home' className='text-[30px] font-base tracking-tight text-indigo-500'>
+          <a href='#home' className='text-[30px] font-base tracking-tight text-black border border-gray-300 hover:bg-red-100 hover:border-red-300  rounded-full px-6 py-1'>
           Taranpreet Singh
         </a>
         </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
               {link.name}
 
               {activeSection === link.href.substring(1) && (
-                <span className="absolute bottom-0 left-0 h-0.5 w-full rounded-full bg-violet-900 " />
+                <span className="absolute bottom-0 left-0 h-0.5 w-full rounded-full bg-red-500 " />
               )}
             </a>
           ))}
