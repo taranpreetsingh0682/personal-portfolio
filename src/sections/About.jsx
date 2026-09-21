@@ -177,7 +177,7 @@ const About = () => {
               />
 
               <StatCards
-                value='3mo'
+                value='4mo'
                 label='Experience'
                 color='yellow'
               />
