@@ -39,16 +39,16 @@ const Hero = () => {
           </div>
 
           {/* Social Account Links */}
-          <div className='mx-3 mt-8 flex items-center gap-2 flex-wrap'>
-            <a href='https://github.com/taranpreetsingh0682' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 rounded-lg border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white'>
+          <div className='mx-3 mt-8 flex items-center gap-2 flex-wrap ' >
+            <a href='https://github.com/taranpreetsingh0682' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 rounded-lg border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white hover:bg-gray-400'>
               <FaGithub size={17} />
               <span>Github</span>
             </a>
-            <a href='https://www.linkedin.com/in/taranpreet-singh-331108296' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg'>
+            <a href='https://www.linkedin.com/in/taranpreet-singh-331108296' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg hover:bg-blue-100'>
               <FaLinkedin size={17} />
               <span>LinkedIn</span>
             </a>
-            <a href='mailto:taranpreetsingh62006@gmail.com' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg'>
+            <a href='mailto:taranpreetsingh62006@gmail.com' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg hover:bg-orange-100'>
               <Mail size={17} />
               <span>Gmail</span>
             </a>
