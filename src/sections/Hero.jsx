@@ -48,7 +48,7 @@ const Hero = () => {
               <FaLinkedin size={17} />
               <span>LinkedIn</span>
             </a>
-            <a href='mailto:taranpreetsingh62006@gmail.com' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg hover:bg-orange-100'>
+            <a href='mailto:taranpreetsingh62006@gmail.com' target='_blank' rel='noreferrer' className='flex items-center gap-2 font-bold text-gray-700 border border-gray-300 py-3 px-4 transition hover:border-indigo-500 hover:text-indigo-600 bg-white rounded-lg hover:bg-red-100'>
               <Mail size={17} />
               <span>Gmail</span>
             </a>
