@@ -210,7 +210,7 @@ const About = () => {
             <div className='mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8'>
 
               {/* Download Resume */}
-              <div className='w-fit rounded-xl border border-red-100 bg-orange-200 px-3 py-2 transition-all duration-300 hover:-translate-y-1 hover:border-indigo-300'>
+              <div className='w-fit rounded-2xl border border-white  bg-black px-3 py-2 transition-all  hover:border-indigo-300 text-white'>
 
                 <a href='/resume.pdf' download>
                   Download Resume
