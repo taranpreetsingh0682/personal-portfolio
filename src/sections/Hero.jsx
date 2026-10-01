@@ -60,7 +60,7 @@ const Hero = () => {
           <img
             src={pr}
             alt='Taranpreet Singh'
-            className='w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 bg-indigo-100 text-indigo-700 rounded-full object-cover border-4 border-indigo-300 shadow-xl animate-pulse'
+            className='w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 bg-indigo-100 text-indigo-700 rounded-full object-cover border-4 border-indigo-300 shadow-xl '
           />
         </div>
 
