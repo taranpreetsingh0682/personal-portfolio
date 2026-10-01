@@ -21,7 +21,7 @@ const Navbar = () => {
 
   
   return (
-    <header className='py-1 my-2 mx-3 bg-white'>
+    <header className='py-1 my-2 mx-3 bg-white border-slate-800/70 background-blur-lg border-b w-full top-0   '>
       <nav className='py-2 px-5 my-0 border-b border-gray-200 '>
         
 <div className='flex justify-between'>
