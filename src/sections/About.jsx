@@ -165,19 +165,19 @@ const About = () => {
             <div className='mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3'>
 
               <StatCards
-                value='4+'
+                value='3'
                 label='Projects'
                 color='blue'
               />
 
               <StatCards
-                value='5+'
+                value='4'
                 label='Certificates'
                 color='green'
               />
 
               <StatCards
-                value='4mo'
+                value='5mo'
                 label='Experience'
                 color='yellow'
               />
