@@ -212,7 +212,7 @@ const About = () => {
               {/* Download Resume */}
               <div className='w-fit rounded-2xl border border-white  bg-black px-3 py-2 transition-all  hover:border-indigo-300 text-white'>
 
-                <a href='/resume.pdf' download>
+                <a href='/cv.pdf' download>
                   Download Resume
                 </a>
 
