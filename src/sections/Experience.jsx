@@ -6,7 +6,7 @@ const experience =[
   {
     title:'Training Internship',
     location:'e-Karigar Technologies . Ambala (On-Site)',
-    time:'3 months',
+    time:'5 months',
     description:[
      
       'Gained hands-on experience working with CodeIgniter , React.js and Node.js ',
