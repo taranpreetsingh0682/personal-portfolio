@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import { FaLayerGroup, FaShieldAlt } from 'react-icons/fa'
 import lifeV from '../assets/Life-v.png'
-import campf from '../assets/camp-f.png'
+import campus from '../assets/camp-f.png'
 import portfolioP from '../assets/portfolio-P.png'
 
 const project=[
