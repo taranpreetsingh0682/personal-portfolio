@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import { FaLayerGroup, FaShieldAlt } from 'react-icons/fa'
 import lifeV from '../assets/Life-v.png'
-import campus from '../assets/camp-f.png'
+import campus from '../assets/Camp-f.png'
 import portfolioP from '../assets/portfolio-P.png'
 
 const project=[
@@ -24,7 +24,7 @@ githubUrl:'https://github.com/taranpreetsingh0682',
 liveUrl:'',
   },
   {
-    image:campf,
+    image:campus,
     title:'CampusFlowAI',
     description:'CampusFlow AI is a Mern Stack  management platform  featuring secure authentication, attendance tracking, fee management, and scholarship management',
     tech:['React.js','Typescript','Node.js','MongoDB','JWT'],
